@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sky-viewer/static/css/main.56119743.css",
+    "main.js": "/sky-viewer/static/js/main.a76604e5.js",
+    "index.html": "/sky-viewer/index.html",
+    "main.56119743.css.map": "/sky-viewer/static/css/main.56119743.css.map",
+    "main.a76604e5.js.map": "/sky-viewer/static/js/main.a76604e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56119743.css",
+    "static/js/main.a76604e5.js"
+  ]
+}
