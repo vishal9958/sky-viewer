@@ -1,0 +1,86 @@
+.weather-card {
+  background-color: #1e293b;
+  padding: 24px;
+  border-radius: 1rem;
+  color: white;
+  max-width: 800px;
+  margin: 24px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.city-name {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.date {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.condition {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.temp-section {
+  display: flex;
+  align-items: center;
+}
+
+.weather-icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 12px;
+}
+
+.temperature {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.feels-like {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.info-card {
+  background-color: #334155;
+  padding: 16px;
+  border-radius: 0.75rem;
+}
+
+.info-card .value {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.info-card.green {
+  background-color: #14532d;
+}
+
+.info-card.purple {
+  background-color: #4c1d95;
+}
+
+.info-card.brown {
+  background-color: #7c2d12;
+}
